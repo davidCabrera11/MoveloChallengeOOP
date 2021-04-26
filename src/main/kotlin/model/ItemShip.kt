@@ -1,8 +1,3 @@
 package model
 
-class ItemShip(val weight:Double, val volume: Volume) {
-
-
-
-
-}
+data class ItemShip(val weight:Double, val volume: Volume)
